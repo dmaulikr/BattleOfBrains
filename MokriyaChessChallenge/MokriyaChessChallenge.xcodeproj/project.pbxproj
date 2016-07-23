@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35C2CA0D1D436EBC00D9F62A /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA0C1D436EBC00D9F62A /* HomeScreenController.swift */; };
+		35C2CA111D43746D00D9F62A /* HomeScreenTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA101D43746D00D9F62A /* HomeScreenTable.swift */; };
+		35C2CA131D437C5F00D9F62A /* HomeScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA121D437C5F00D9F62A /* HomeScreenCell.swift */; };
+		35C2CA151D43ADD600D9F62A /* PlayerErrorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA141D43ADD600D9F62A /* PlayerErrorCell.swift */; };
+		35C2CA171D43ADFB00D9F62A /* ErrorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA161D43ADFB00D9F62A /* ErrorVC.swift */; };
+		35C2CA271D43C31500D9F62A /* Size.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C2CA191D43C31500D9F62A /* Size.plist */; };
+		35C2CA281D43C31500D9F62A /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA1A1D43C31500D9F62A /* Chart.swift */; };
+		35C2CA291D43C31500D9F62A /* ChartFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA1B1D43C31500D9F62A /* ChartFactory.swift */; };
+		35C2CA2A1D43C31500D9F62A /* ChartUnitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA1C1D43C31500D9F62A /* ChartUnitData.swift */; };
+		35C2CA2B1D43C31500D9F62A /* ColorTheme.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35C2CA1D1D43C31500D9F62A /* ColorTheme.bundle */; };
+		35C2CA2C1D43C31500D9F62A /* DashBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA1E1D43C31500D9F62A /* DashBoardView.swift */; };
+		35C2CA2D1D43C31500D9F62A /* LegendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA1F1D43C31500D9F62A /* LegendView.swift */; };
+		35C2CA2E1D43C31500D9F62A /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA201D43C31500D9F62A /* Parser.swift */; };
+		35C2CA2F1D43C31500D9F62A /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA211D43C31500D9F62A /* PieChart.swift */; };
+		35C2CA301D43C31500D9F62A /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA221D43C31500D9F62A /* PopupView.swift */; };
+		35C2CA311D43C31500D9F62A /* ReadColorsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA231D43C31500D9F62A /* ReadColorsBundle.swift */; };
+		35C2CA321D43C31500D9F62A /* XAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA241D43C31500D9F62A /* XAxis.swift */; };
+		35C2CA331D43C31500D9F62A /* YAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA251D43C31500D9F62A /* YAxis.swift */; };
+		35C2CA341D43C31500D9F62A /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA261D43C31500D9F62A /* DashboardController.swift */; };
+		35C2CA391D43C33500D9F62A /* ColumnDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA361D43C33500D9F62A /* ColumnDisplayView.swift */; };
+		35C2CA3A1D43C33500D9F62A /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA371D43C33500D9F62A /* DisplayView.swift */; };
+		35C2CA3B1D43C33500D9F62A /* LinesDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA381D43C33500D9F62A /* LinesDisplayView.swift */; };
+		35C2CA3D1D43C34E00D9F62A /* PlayerModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA3C1D43C34E00D9F62A /* PlayerModal.swift */; };
+		35C2CA3F1D43C37700D9F62A /* PlayingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA3E1D43C37700D9F62A /* PlayingController.swift */; };
+		35C2CA411D43C38400D9F62A /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA401D43C38400D9F62A /* ResultController.swift */; };
+		35C2CA441D43C77C00D9F62A /* ChessPlayers+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA421D43C77C00D9F62A /* ChessPlayers+CoreDataProperties.swift */; };
+		35C2CA451D43C77C00D9F62A /* ChessPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA431D43C77C00D9F62A /* ChessPlayers.swift */; };
+		35C2CA471D43D13500D9F62A /* DataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA461D43D13500D9F62A /* DataUtils.swift */; };
+		35C2CA491D43DF8600D9F62A /* chess.gif in Resources */ = {isa = PBXBuildFile; fileRef = 35C2CA481D43DF8600D9F62A /* chess.gif */; };
+		35C2CA4B1D43DF9C00D9F62A /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C2CA4A1D43DF9C00D9F62A /* UIImage+Gif.swift */; };
+		35C478FF1D434A9800153485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C478FE1D434A9800153485 /* AppDelegate.swift */; };
+		35C479041D434A9800153485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C479021D434A9800153485 /* Main.storyboard */; };
+		35C479071D434A9800153485 /* MokriyaChessChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35C479051D434A9800153485 /* MokriyaChessChallenge.xcdatamodeld */; };
+		35C479091D434A9800153485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C479081D434A9800153485 /* Assets.xcassets */; };
+		35C4790C1D434A9800153485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C4790A1D434A9800153485 /* LaunchScreen.storyboard */; };
+		35C4791B1D434AE800153485 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4791A1D434AE800153485 /* CoreDataStack.swift */; };
+		35C4791E1D434D7F00153485 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4791D1D434D7F00153485 /* NetworkOperation.swift */; };
+		35C479201D434DE600153485 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4791F1D434DE600153485 /* Constants.swift */; };
+		35C479231D434F8D00153485 /* CoreDataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C479221D434F8D00153485 /* CoreDataAPI.swift */; };
+		35C4792C1D43525D00153485 /* ChessPlayerParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4792B1D43525D00153485 /* ChessPlayerParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35C2CA0C1D436EBC00D9F62A /* HomeScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenController.swift; sourceTree = "<group>"; };
+		35C2CA101D43746D00D9F62A /* HomeScreenTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenTable.swift; sourceTree = "<group>"; };
+		35C2CA121D437C5F00D9F62A /* HomeScreenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenCell.swift; sourceTree = "<group>"; };
+		35C2CA141D43ADD600D9F62A /* PlayerErrorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerErrorCell.swift; sourceTree = "<group>"; };
+		35C2CA161D43ADFB00D9F62A /* ErrorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorVC.swift; sourceTree = "<group>"; };
+		35C2CA191D43C31500D9F62A /* Size.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Size.plist; sourceTree = "<group>"; };
+		35C2CA1A1D43C31500D9F62A /* Chart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		35C2CA1B1D43C31500D9F62A /* ChartFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartFactory.swift; sourceTree = "<group>"; };
+		35C2CA1C1D43C31500D9F62A /* ChartUnitData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartUnitData.swift; sourceTree = "<group>"; };
+		35C2CA1D1D43C31500D9F62A /* ColorTheme.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ColorTheme.bundle; sourceTree = "<group>"; };
+		35C2CA1E1D43C31500D9F62A /* DashBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardView.swift; sourceTree = "<group>"; };
+		35C2CA1F1D43C31500D9F62A /* LegendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegendView.swift; sourceTree = "<group>"; };
+		35C2CA201D43C31500D9F62A /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		35C2CA211D43C31500D9F62A /* PieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		35C2CA221D43C31500D9F62A /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		35C2CA231D43C31500D9F62A /* ReadColorsBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadColorsBundle.swift; sourceTree = "<group>"; };
+		35C2CA241D43C31500D9F62A /* XAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAxis.swift; sourceTree = "<group>"; };
+		35C2CA251D43C31500D9F62A /* YAxis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YAxis.swift; sourceTree = "<group>"; };
+		35C2CA261D43C31500D9F62A /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		35C2CA361D43C33500D9F62A /* ColumnDisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnDisplayView.swift; sourceTree = "<group>"; };
+		35C2CA371D43C33500D9F62A /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		35C2CA381D43C33500D9F62A /* LinesDisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinesDisplayView.swift; sourceTree = "<group>"; };
+		35C2CA3C1D43C34E00D9F62A /* PlayerModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerModal.swift; sourceTree = "<group>"; };
+		35C2CA3E1D43C37700D9F62A /* PlayingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayingController.swift; sourceTree = "<group>"; };
+		35C2CA401D43C38400D9F62A /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		35C2CA421D43C77C00D9F62A /* ChessPlayers+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ChessPlayers+CoreDataProperties.swift"; path = "../ChessPlayers+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		35C2CA431D43C77C00D9F62A /* ChessPlayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChessPlayers.swift; path = ../ChessPlayers.swift; sourceTree = "<group>"; };
+		35C2CA461D43D13500D9F62A /* DataUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUtils.swift; sourceTree = "<group>"; };
+		35C2CA481D43DF8600D9F62A /* chess.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chess.gif; sourceTree = "<group>"; };
+		35C2CA4A1D43DF9C00D9F62A /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		35C478FB1D434A9800153485 /* MokriyaChessChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MokriyaChessChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C478FE1D434A9800153485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35C479031D434A9800153485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C479061D434A9800153485 /* MokriyaChessChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MokriyaChessChallenge.xcdatamodel; sourceTree = "<group>"; };
+		35C479081D434A9800153485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35C4790B1D434A9800153485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35C4790D1D434A9800153485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C4791A1D434AE800153485 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		35C4791D1D434D7F00153485 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		35C4791F1D434DE600153485 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		35C479221D434F8D00153485 /* CoreDataAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataAPI.swift; sourceTree = "<group>"; };
+		35C4792B1D43525D00153485 /* ChessPlayerParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessPlayerParser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35C478F81D434A9800153485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35C2CA181D43C30500D9F62A /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				35C2CA351D43C32A00D9F62A /* DisplayViews */,
+				35C2CA191D43C31500D9F62A /* Size.plist */,
+				35C2CA1A1D43C31500D9F62A /* Chart.swift */,
+				35C2CA1B1D43C31500D9F62A /* ChartFactory.swift */,
+				35C2CA1C1D43C31500D9F62A /* ChartUnitData.swift */,
+				35C2CA1D1D43C31500D9F62A /* ColorTheme.bundle */,
+				35C2CA1E1D43C31500D9F62A /* DashBoardView.swift */,
+				35C2CA1F1D43C31500D9F62A /* LegendView.swift */,
+				35C2CA201D43C31500D9F62A /* Parser.swift */,
+				35C2CA211D43C31500D9F62A /* PieChart.swift */,
+				35C2CA221D43C31500D9F62A /* PopupView.swift */,
+				35C2CA231D43C31500D9F62A /* ReadColorsBundle.swift */,
+				35C2CA241D43C31500D9F62A /* XAxis.swift */,
+				35C2CA251D43C31500D9F62A /* YAxis.swift */,
+				35C2CA261D43C31500D9F62A /* DashboardController.swift */,
+			);
+			name = DashBoard;
+			sourceTree = "<group>";
+		};
+		35C2CA351D43C32A00D9F62A /* DisplayViews */ = {
+			isa = PBXGroup;
+			children = (
+				35C2CA361D43C33500D9F62A /* ColumnDisplayView.swift */,
+				35C2CA371D43C33500D9F62A /* DisplayView.swift */,
+				35C2CA381D43C33500D9F62A /* LinesDisplayView.swift */,
+			);
+			name = DisplayViews;
+			sourceTree = "<group>";
+		};
+		35C478F21D434A9800153485 = {
+			isa = PBXGroup;
+			children = (
+				35C478FD1D434A9800153485 /* MokriyaChessChallenge */,
+				35C478FC1D434A9800153485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35C478FC1D434A9800153485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35C478FB1D434A9800153485 /* MokriyaChessChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C478FD1D434A9800153485 /* MokriyaChessChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				35C2CA181D43C30500D9F62A /* DashBoard */,
+				35C479211D434E7200153485 /* Parsers */,
+				35C4791C1D434D0600153485 /* Network */,
+				35C479191D434ACE00153485 /* resources */,
+				35C479181D434AB800153485 /* utility */,
+				35C479171D434AB200153485 /* storyboard */,
+				35C479161D434AAB00153485 /* coredata */,
+				35C479151D434AA600153485 /* controller */,
+				35C479141D434AA300153485 /* view */,
+				35C479131D434A9F00153485 /* modal */,
+				35C478FE1D434A9800153485 /* AppDelegate.swift */,
+				35C479021D434A9800153485 /* Main.storyboard */,
+				35C479081D434A9800153485 /* Assets.xcassets */,
+				35C4790A1D434A9800153485 /* LaunchScreen.storyboard */,
+				35C4790D1D434A9800153485 /* Info.plist */,
+				35C479051D434A9800153485 /* MokriyaChessChallenge.xcdatamodeld */,
+			);
+			path = MokriyaChessChallenge;
+			sourceTree = "<group>";
+		};
+		35C479131D434A9F00153485 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+				35C2CA3C1D43C34E00D9F62A /* PlayerModal.swift */,
+				35C479281D43500600153485 /* coredataModal */,
+			);
+			name = modal;
+			sourceTree = "<group>";
+		};
+		35C479141D434AA300153485 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				35C2CA121D437C5F00D9F62A /* HomeScreenCell.swift */,
+				35C2CA141D43ADD600D9F62A /* PlayerErrorCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		35C479151D434AA600153485 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				35C2CA401D43C38400D9F62A /* ResultController.swift */,
+				35C2CA0C1D436EBC00D9F62A /* HomeScreenController.swift */,
+				35C2CA101D43746D00D9F62A /* HomeScreenTable.swift */,
+				35C2CA161D43ADFB00D9F62A /* ErrorVC.swift */,
+				35C2CA3E1D43C37700D9F62A /* PlayingController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		35C479161D434AAB00153485 /* coredata */ = {
+			isa = PBXGroup;
+			children = (
+				35C4791A1D434AE800153485 /* CoreDataStack.swift */,
+				35C479221D434F8D00153485 /* CoreDataAPI.swift */,
+			);
+			name = coredata;
+			sourceTree = "<group>";
+		};
+		35C479171D434AB200153485 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = storyboard;
+			sourceTree = "<group>";
+		};
+		35C479181D434AB800153485 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				35C4791F1D434DE600153485 /* Constants.swift */,
+				35C2CA461D43D13500D9F62A /* DataUtils.swift */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		35C479191D434ACE00153485 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				35C2CA4A1D43DF9C00D9F62A /* UIImage+Gif.swift */,
+				35C2CA481D43DF8600D9F62A /* chess.gif */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		35C4791C1D434D0600153485 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				35C4791D1D434D7F00153485 /* NetworkOperation.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		35C479211D434E7200153485 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				35C4792B1D43525D00153485 /* ChessPlayerParser.swift */,
+			);
+			name = Parsers;
+			sourceTree = "<group>";
+		};
+		35C479281D43500600153485 /* coredataModal */ = {
+			isa = PBXGroup;
+			children = (
+				35C2CA421D43C77C00D9F62A /* ChessPlayers+CoreDataProperties.swift */,
+				35C2CA431D43C77C00D9F62A /* ChessPlayers.swift */,
+			);
+			name = coredataModal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35C478FA1D434A9800153485 /* MokriyaChessChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C479101D434A9800153485 /* Build configuration list for PBXNativeTarget "MokriyaChessChallenge" */;
+			buildPhases = (
+				35C478F71D434A9800153485 /* Sources */,
+				35C478F81D434A9800153485 /* Frameworks */,
+				35C478F91D434A9800153485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MokriyaChessChallenge;
+			productName = MokriyaChessChallenge;
+			productReference = 35C478FB1D434A9800153485 /* MokriyaChessChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35C478F31D434A9800153485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = metricstream;
+				TargetAttributes = {
+					35C478FA1D434A9800153485 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 35C478F61D434A9800153485 /* Build configuration list for PBXProject "MokriyaChessChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35C478F21D434A9800153485;
+			productRefGroup = 35C478FC1D434A9800153485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35C478FA1D434A9800153485 /* MokriyaChessChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35C478F91D434A9800153485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C4790C1D434A9800153485 /* LaunchScreen.storyboard in Resources */,
+				35C2CA2B1D43C31500D9F62A /* ColorTheme.bundle in Resources */,
+				35C479091D434A9800153485 /* Assets.xcassets in Resources */,
+				35C2CA491D43DF8600D9F62A /* chess.gif in Resources */,
+				35C479041D434A9800153485 /* Main.storyboard in Resources */,
+				35C2CA271D43C31500D9F62A /* Size.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35C478F71D434A9800153485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C2CA4B1D43DF9C00D9F62A /* UIImage+Gif.swift in Sources */,
+				35C2CA2A1D43C31500D9F62A /* ChartUnitData.swift in Sources */,
+				35C2CA291D43C31500D9F62A /* ChartFactory.swift in Sources */,
+				35C2CA171D43ADFB00D9F62A /* ErrorVC.swift in Sources */,
+				35C2CA341D43C31500D9F62A /* DashboardController.swift in Sources */,
+				35C2CA0D1D436EBC00D9F62A /* HomeScreenController.swift in Sources */,
+				35C2CA2F1D43C31500D9F62A /* PieChart.swift in Sources */,
+				35C4792C1D43525D00153485 /* ChessPlayerParser.swift in Sources */,
+				35C479071D434A9800153485 /* MokriyaChessChallenge.xcdatamodeld in Sources */,
+				35C2CA3B1D43C33500D9F62A /* LinesDisplayView.swift in Sources */,
+				35C2CA131D437C5F00D9F62A /* HomeScreenCell.swift in Sources */,
+				35C2CA111D43746D00D9F62A /* HomeScreenTable.swift in Sources */,
+				35C2CA281D43C31500D9F62A /* Chart.swift in Sources */,
+				35C2CA3F1D43C37700D9F62A /* PlayingController.swift in Sources */,
+				35C2CA331D43C31500D9F62A /* YAxis.swift in Sources */,
+				35C4791E1D434D7F00153485 /* NetworkOperation.swift in Sources */,
+				35C479231D434F8D00153485 /* CoreDataAPI.swift in Sources */,
+				35C2CA441D43C77C00D9F62A /* ChessPlayers+CoreDataProperties.swift in Sources */,
+				35C2CA3A1D43C33500D9F62A /* DisplayView.swift in Sources */,
+				35C2CA3D1D43C34E00D9F62A /* PlayerModal.swift in Sources */,
+				35C2CA2D1D43C31500D9F62A /* LegendView.swift in Sources */,
+				35C478FF1D434A9800153485 /* AppDelegate.swift in Sources */,
+				35C2CA2C1D43C31500D9F62A /* DashBoardView.swift in Sources */,
+				35C2CA451D43C77C00D9F62A /* ChessPlayers.swift in Sources */,
+				35C2CA311D43C31500D9F62A /* ReadColorsBundle.swift in Sources */,
+				35C4791B1D434AE800153485 /* CoreDataStack.swift in Sources */,
+				35C2CA411D43C38400D9F62A /* ResultController.swift in Sources */,
+				35C479201D434DE600153485 /* Constants.swift in Sources */,
+				35C2CA321D43C31500D9F62A /* XAxis.swift in Sources */,
+				35C2CA471D43D13500D9F62A /* DataUtils.swift in Sources */,
+				35C2CA151D43ADD600D9F62A /* PlayerErrorCell.swift in Sources */,
+				35C2CA391D43C33500D9F62A /* ColumnDisplayView.swift in Sources */,
+				35C2CA2E1D43C31500D9F62A /* Parser.swift in Sources */,
+				35C2CA301D43C31500D9F62A /* PopupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35C479021D434A9800153485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C479031D434A9800153485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35C4790A1D434A9800153485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C4790B1D434A9800153485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35C4790E1D434A9800153485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35C4790F1D434A9800153485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35C479111D434A9800153485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MokriyaChessChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metricstream.MokriyaChessChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35C479121D434A9800153485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MokriyaChessChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metricstream.MokriyaChessChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35C478F61D434A9800153485 /* Build configuration list for PBXProject "MokriyaChessChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C4790E1D434A9800153485 /* Debug */,
+				35C4790F1D434A9800153485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35C479101D434A9800153485 /* Build configuration list for PBXNativeTarget "MokriyaChessChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35C479111D434A9800153485 /* Debug */,
+				35C479121D434A9800153485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		35C479051D434A9800153485 /* MokriyaChessChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				35C479061D434A9800153485 /* MokriyaChessChallenge.xcdatamodel */,
+			);
+			currentVersion = 35C479061D434A9800153485 /* MokriyaChessChallenge.xcdatamodel */;
+			path = MokriyaChessChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 35C478F31D434A9800153485 /* Project object */;
+}
